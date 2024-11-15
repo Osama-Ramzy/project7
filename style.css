@@ -1,0 +1,151 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+body{
+ background-color: black;
+}
+.btn{
+
+  transition: transform .8s ease;
+}
+.btn:hover{
+ transform: translateX(20px);
+ background-color: transparent;
+ color: aliceblue;
+}
+.text{
+ font-size: 80px;
+}
+.col-3 span{
+ border-radius: 10px;
+}
+i:hover {
+  cursor: pointer;
+}
+.one{
+  border-radius: 7px;
+  transition: border .2s ease-in-out;
+  padding: 10px;
+  outline: none;
+}
+.one:hover{
+ border:2px orange solid;
+ background-color: transparent !important;
+}
+a:hover{
+ color: orange !important;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.mm{
+  position: relative;
+}
+.photo5{
+ position: absolute;
+ top: 50%;
+ left: 10%;
+ border-radius: 10px;
+ transition: transform 1s ease;
+}
+.photo4{
+  border-radius:10px ;
+  transition: transform 1s ease;
+}
+.photo5:hover{
+ transform: scale(1.1);
+}
+.photo4:hover{
+ transform: scale(1.1);
+}
+.nn{
+  width: 95%;
+  border-radius: 10px;
+
+}
+.bor{
+  width: 50px;
+  height: 40px;
+  
+  border-radius: 10px;
+}
+.dd{
+    width: 90%;
+    border-radius: 10px;
+}
+#join{
+    position: relative;
+}
+.ww{
+ display: flex;
+ justify-content: center;
+position: absolute;
+top: 90%;
+left: 0;
+}
+.row{
+  .row {
+     --bs-gutter-x: 0rem !important;
+}}
+.big{
+  margin-top: 270px;
+  text-align: center;
+}
+.tt{
+  height: 5px;
+  border-radius: 2px;
+}
+.btn-outline-warning{
+  background-color: orange;
+}
+.gg{
+  border-radius: 10px 10px;
+  transition: border 1s ease;
+}
+.gg:hover{
+  border: 1px orange solid ;
+  background-color: black;
+}
+.fa-quote-right{
+  font-size: 60px;
+  color:orange;
+}
+.col-11 img{
+  margin-top: 50px;
+ width: 100px;
+}
+.two{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px orange solid;
+  transition: background-color .7s ease;
+  cursor: pointer;
+  
+}
+.two:hover{
+ background-color: orange;
+
+}
+.ff{
+  width: 150px;
+}
+.two i{
+  transition: transform 1.3s ease;
+}
+.two i:hover{
+  transform:rotate(360deg);
+}
+
+.navbar-toggler{
+  color: aliceblue !important;
+}
+
+nav .btn{
+ transition:none;
+}
+nav .btn:hover{
+transform: none;
+}
